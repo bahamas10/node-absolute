@@ -1,6 +1,6 @@
 var path = require('path');
 
-module.exports = absolute;
+module.exports = path.isAbsolute ? path.isAbsolute.bind(path) : absolute;
 
 function absolute(s) {
   return path.resolve(s) === s;
