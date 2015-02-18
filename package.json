@@ -1,6 +1,6 @@
 {
   "name": "absolute",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Test if a path (string) is absolute",
   "author": "Dave Eddy <dave@daveeddy.com> (http://www.daveeddy.com)",
   "main": "./absolute.js",
